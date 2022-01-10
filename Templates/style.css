@@ -155,7 +155,7 @@ a:hover{
 	bottom: 15px;
 	right: 15px;
 	padding: 10px 20px;
-	background: #42bc7f;
+	background: rgb(255, 211, 91);
 	color: #fff;
 	font-size: 25px;
 	width: 40px;
@@ -166,7 +166,7 @@ a:hover{
 	border-radius: 100%;
 }
 #scrollUp:hover{
-	background:#333;
+	background:rgb(204, 150, 0);
 }
 
 /*=========================
@@ -276,7 +276,7 @@ a:hover{
 	visibility:visible;
 }
 .header .nav li .dropdown .sub-dropdown li:hover a {
-	color:#42BC7F;
+	color:#000;
 }
 .header .nav li .dropdown .sub-dropdown li a{
 	color:#fff;
@@ -380,7 +380,7 @@ a:hover{
 	font-size: 15px;
 	height: 40px;
 	color: #fff;
-	background:#42BC7F;
+	background:#000;
 	text-transform:uppercase;
 	display: inline-block;
 	line-height: 40px;
@@ -409,7 +409,7 @@ a:hover{
 .about .single-about .social li a i {
 	font-size: 20px;
 	color: #fff;
-	background: #42bc7f;
+	background: #000;
 	font-size: 17px;
 	height: 30px;
 	width: 30px;
@@ -427,6 +427,7 @@ a:hover{
 .about .image img {
 	width: 100%;
 	box-shadow: 2px 2px 10px #0000002e;
+	border-radius: 1%;
 }
 .about .image .video-popup {
 	color: #fff;
@@ -449,7 +450,7 @@ a:hover{
 	padding-left: 3px;
 	padding-top: 1px;
 }
-.about .image .video-popup:hover{
+.about .image:hover{
 	transform:scale(1.1);
 	color:#fff;
 	background:#3339;
@@ -462,13 +463,18 @@ a:hover{
 	Services CSS
 ===========================*/
 .service{
-	background: linear-gradient(-154deg,#42bc7f,#305a45);
+	background-color: #000;
+}
+
+.service{
 	padding: 40px 0 100px;
 }
 .service .section-title {
 	margin-top: 227px;
 }
-.service .section-title h2{}
+.service .section-title h2{
+	color:#fff
+}
 .service .section-title span{
 	color:#fff;
 }
@@ -580,7 +586,7 @@ a:hover{
 	border-bottom-color:#ED1C24;
 }
 .skill .progress .progress-bar{
-	background:#42bc7f;
+	background:rgb(123, 123, 123);
 }
 .skill .button{
 	margin-top:20px;
@@ -622,7 +628,7 @@ a:hover{
 	top: 0;
 	height: 100%;
 	width: 1px;
-	background: #42bc7f;
+	background: #000;
 }
 .story .single-story span {
 	display: block;
@@ -631,7 +637,7 @@ a:hover{
 	position: absolute;
 	left: 0;
 	top: 0;
-	background: #333;
+	background: #000;
 	color: #fff;
 	border-radius: 3px;
 	height: 35px;
@@ -646,13 +652,13 @@ a:hover{
 	top: 9px;
 	height: 18px;
 	width: 18px;
-	background: #42bc7f;
+	background: #000;
 	border-radius: 100%;
 }
 .story .single-story span::after {
 	position: absolute;
 	content: "";
-	border: 10px solid #333;
+	border: 10px solid #000;
 	left: 58px;
 	top: 7px;
 	border-right: 10px solid transparent;
@@ -722,7 +728,7 @@ a:hover{
 .latest-works .works-menu ul li:hover,
 .latest-works .works-menu ul li.active{
 	color:#fff;
-	background:#42bc7f;
+	background:#000;
 }
 .latest-works .works-menu ul li i{
 	margin-right:5px;
@@ -735,7 +741,7 @@ a:hover{
 	top: 0px;
 	height: 1px;
 	width: 100%;
-	background: #42bc7f;
+	background: #000;
 	opacity:0;
 	visibility:hidden;
 	transition:all 0.4s ease;
@@ -752,7 +758,7 @@ a:hover{
 	bottom: 0px;
 	height: 1px;
 	width: 100%;
-	background: #42bc7f;
+	background: #000;
 	opacity:0;
 	visibility:hidden;
 	transition:all 0.4s ease;
@@ -771,7 +777,7 @@ a:hover{
 	overflow:hidden;
 }
 .latest-works .single-work:before{
-	background: #42bc7f;
+	background: rgb(123, 123, 123);
     top:0px;
 	left:0;
     content: "";
@@ -939,7 +945,7 @@ a:hover{
 	position: absolute;
 	left: 190px;
 	top: 4px;
-	border:4px solid #42bc7f;
+	border:4px solid #000;
 	border-top:4px solid #fff;
 	border-bottom:4px solid #fff;
 }
@@ -973,7 +979,7 @@ a:hover{
 	margin-top: 10px;
 }
 .testimonials .single-testimonial .star i {
-	color: #42bc7f;
+	color: #000;
 	font-size: 18px;
 	margin-right: 3px;
 }
@@ -1001,7 +1007,7 @@ a:hover{
 }
 .testimonials .owl-dots button.active{
 	background:transparent;
-	border-color:#42bc7f;
+	border-color:#000;
 	width: 20px;
 }
 .testimonials .owl-dots button span{
@@ -1039,7 +1045,7 @@ a:hover{
 	overflow:hidden;
 }
 .blog .single-news .news-date {
-	background: #42bc7f;
+	background: #000;
 	position: absolute;
 	left: -80px;
 	top: -20px;
@@ -1072,7 +1078,7 @@ a:hover{
 	color:#000;
 }
 .blog .single-news .news-view {
-	background: #42bc7f;
+	background: #000;
 	position: absolute;
 	right: -300px;
 	top: 197px;
@@ -1112,14 +1118,14 @@ a:hover{
 	text-decoration:none;
 }
 .blog .single-news .news-body h2:hover a{
-	color:#42bc7f
+	color:#000
 }
 .blog .single-news .news-body p{
 	color:#999;
 	margin:15px 0;
 }
 .blog .single-news .news-body .btn {
-	background:#42bc7f; 
+	background:#000; 
 	padding: 0;
 	height: 26px;
 	width: 110px;
@@ -1143,94 +1149,6 @@ a:hover{
 /*=========================
 	End Blogs CSS
 ===========================*/
-
-/*=========================
-	Newsletter
-===========================*/
-.newslatter{
-	background-color:#fff;
-	text-align:center;
-}
-.newslatter .news-text h4{
-	color:#42bc7f;
-	text-transform:capitalize;
-	font-weight:700;
-	font-size:20px;
-	text-transform:uppercase;
-	margin-bottom:10px;
-}
-.newslatter .news-text h2{
-	font-size:45px;
-	color:#686868;
-	text-transform:uppercase;
-	font-weight:700;
-	margin-bottom:24px;
-	margin-bottom:7px;
-}
-.newslatter .news-text p{
-	color:#686868;
-	font-weight:400;
-	font-size:15px;
-	margin-bottom:35px;
-}
-.newslatter .form{
-	
-}
-.newslatter .form input {
-	background: transparent;
-	border: 2px solid #a1a1a1;
-	height: 50px;
-	line-height: 50px;
-	width: 410px;
-	font-weight:600;
-	color: #a1a1a1;
-	padding-left: 18px;
-	display: inline-block;
-	border-radius:3px;
-	
-}
-.newslatter input::-webkit-input-placeholder {
-    opacity: 1;
-    color: #a1a1a1 !important;
-}
-
-.newslatter input::-moz-placeholder {
-    opacity: 1;
-    color: #a1a1a1 !important;
-}
-
-.newslatter input::-ms-input-placeholder {
-    opacity: 1;
-    color: #a1a1a1 !important;
-}
-.newslatter input::input-placeholder {
-    opacity: 1;
-    color: #a1a1a1 !important;
-}
-.newslatter .form button {
-	background: #42bc7f;
-	border: none;
-	box-shadow: none;
-	height: 50px;
-	width: 160px;
-	line-height: 50px;
-	color: #fff;
-	font-weight: 600;
-	text-transform: uppercase;
-	font-size: 16px;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-	margin-left: -7px;
-	border-radius:0px 3px 3px 0px;
-}
-.newslatter .form button:hover{
-	background:#a1a1a1;
-	color:#fff;
-}
-/*===========================
-	End Newsletter
-=============================*/
 
 /*===========================
 	Contact CSS
@@ -1261,7 +1179,7 @@ a:hover{
 	text-transform:capitalize;
 }
 .contact .form input:hover,.contact .form input:focus{
-	border-color:#42bc7f;
+	border-color:#000;
 }
 .contact .form textarea{
 	width: 100%;
@@ -1273,13 +1191,13 @@ a:hover{
 }
 .contact .form textarea:hover,
 .contact .form textarea:focus{
-	border-color:#42bc7f;
+	border-color:#000;
 }
 .contact .contact-info {
 	margin-top: 26px;
 }
 .contact .contact-info h4{
-	color:#42bc7f;
+	color:#000;
 	font-size:25px;
 	margin-bottom:20px;
 	text-transform:capitalize;
@@ -1295,15 +1213,15 @@ a:hover{
 	margin-top:10px;
 }
 .contact .contact-info span i {
-	color: #42bc7f;
+	color: #000;
 	font-size: 20px;
 	min-width: 32px;
 }
 .contact .contact-info span a:hover{
-	color:#42bc7f;
+	color:#000;
 }
 .contact .form .btn {
-	background: #42bc7f;
+	background: #000;
 	color: #fff;
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
@@ -1393,14 +1311,14 @@ margin:0;
 	height:42px;
 	border-radius:0px;
 	background:#232328;
-	border:1px solid #42bc7f;
+	border:1px solid #fff;
 	line-height:42px;
 	text-align:center;
 	display:block;
-	color:#42bc7f;
+	color:#fff;
 }
 .footer .social li a:hover{
-	box-shadow:0px 0px 5px #42BC7F inset;
+	box-shadow:0px 0px 5px #fff inset;
 	color:#fff;
 }
 .footer .social li span{
@@ -1412,7 +1330,7 @@ margin:0;
 	padding:25px 0;
 }
 .footer .copyright p{
-	color:#666666;
+	color:#fff;
 }
 /*===========================
 	End Footer CSS
