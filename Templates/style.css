@@ -42,17 +42,17 @@ a,button{
 
 /* Text selection background-color */
 ::-moz-selection {
-    background-color: #42BC7F;
+    background-color: rgb(255, 211, 91);
     color: #fff;
 }
  
 ::selection {
-    background-color: #42BC7F;
+    background-color: rgb(255, 211, 91);
     color: #fff;
 }
 ::-moz-selection,
 ::selection {
-    background-color: #42BC7F;
+    background-color: rgb(255, 211, 91);
     color: #fff;
 }
 /* social */
@@ -365,6 +365,11 @@ a:hover{
 /*=========================
 	About CSS
 ===========================*/
+@media (min-width: 768px) {
+	.col-md-100{
+		width:80%;
+	}
+}
 .about{
 	padding-top:100px;
 	padding-bottom:100px;
@@ -378,6 +383,7 @@ a:hover{
 .about .single-about .cv {
 	z-index:99;
 	margin-top: 40px;
+	text-align: center;
 }
 .about .single-about .cv a {
 	font-weight: 500;
@@ -399,7 +405,9 @@ a:hover{
 .about .single-about .social{
 	margin-top: 20px;
 }
-.about .single-about .social ul{}
+.about .single-about .social ul{
+	text-align: center;
+}
 .about .single-about .social li{
 	display:inline-block;
 	margin-right:10px;
@@ -424,40 +432,6 @@ a:hover{
 .about .single-about .social li a:hover i{
 	color:#fff;
 	background:#333;
-}
-.about .image{
-	position:relative;
-}
-.about .image img {
-	width: 100%;
-	box-shadow: 2px 2px 10px #0000002e;
-	border-radius: 1%;
-}
-.about .image .video-popup {
-	color: #fff;
-	background: rgba(66, 188, 127, 0.6);
-	height: 60px;
-	width: 60px;
-	line-height: 60px;
-	text-align: center;
-	font-size: 20px;
-	border-radius: 0px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-left: -30px;
-	margin-top: -30px;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-	border-radius: 100%;
-	padding-left: 3px;
-	padding-top: 1px;
-}
-.about .image:hover{
-	transform:scale(1.1);
-	color:#fff;
-	background:#3339;
 }
 /*=========================
 	End About CSS
@@ -706,39 +680,26 @@ a:hover{
 	opacity:0;
 	visibility:hidden;
 }
-.latest-works .single-work:hover:before{
-	opacity:0.9;
-	visibility:visible;
+
+.latest-works .single-work h4{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: #000;
+	text-align: center;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+.latest-works .single-work p{
+	padding-top: 2%;
+	color: #000;
+	text-align: justify;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 .latest-works .single-work img{
 	width:100%;
 }
-.latest-works .single-work .works-hover {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	padding: 30px;
-	opacity: 0;
-	visibility: hidden;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-	text-align: center;
-}
-.latest-works .single-work:hover .works-hover{
-	opacity: 1;
-	visibility: visible;
-}
-.latest-works .single-work .works-hover a{
-	display:inline-block;
-	-webkit-transition:all 0.4s ease;
-	-moz-transition:all 0.4s ease;
-	transition:all 0.4s ease;
-	color:#fff;
-	font-size:16px;
-}
+
 .latest-works .single-work .works-hover .more{
 	margin-top:20px;
 }
@@ -753,23 +714,7 @@ a:hover{
 	text-transform: uppercase;
 	font-weight:500;
 }
-.latest-works .single-work .works-hover .more a:hover{
-	color:#000;
-	border-color:#000;
-}
-.latest-works .single-work .works-hover h4 {
-	color: #fff;
-	font-size: 15px;
-	text-transform: uppercase;
-	position: relative;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-}
-.latest-works .single-work .works-hover h4:hover{
-	color:#444;
-}
-.latest-works .single-work .works-hover h4:before{
+.latest-works .single-work h4:before{
 	position: absolute;
     content: "";
     left: -20px;
@@ -890,14 +835,14 @@ a:hover{
 	text-transform:capitalize;
 }
 .contact .contact-info p {
-	color: #777;
+	color: #000;
 	display: block;
 	margin-bottom: 20px;
 	text-align: justify;
 }
 .contact .contact-info span{
 	display:block;
-	color:#777;
+	color:#000;
 	margin-top:10px;
 }
 .contact .contact-info span i {
@@ -942,6 +887,9 @@ a:hover{
 	-webkit-transition:all 0.4s ease;
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
+	max-width: 100%;
+ 	max-height: 140px;
+ 	object-fit: contain;
 }
 .clients img:hover{
 	filter:grayscale(0);
