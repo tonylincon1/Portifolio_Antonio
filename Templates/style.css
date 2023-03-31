@@ -115,6 +115,43 @@ a:hover{
 	padding:100px 0;
 }
 
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 8%; /* adicionando espaço à esquerda */
+	margin-right: 8%; /* adicionando espaço à direita */
+  }
+  
+  .project {
+	width: calc(50% - 20px); /* definindo a largura da caixa */
+	margin-top: 20px; /* adicionando espaço em cima */
+	margin-left: 10px; /* adicionando espaço à esquerda */
+	margin-right: 10px; /* adicionando espaço à direita */
+	padding: 20px;
+	background-color: #f5f5f5;
+	box-sizing: border-box;
+	text-align: center;
+  }
+  
+  .project img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+  }
+  
+  .project h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  .project p {
+	font-size: 16px;
+	margin-bottom: 5px;
+  }  
+
 /*section-title*/
 .section-title {
 	text-align: center;
@@ -481,7 +518,6 @@ a:hover{
 	font-size:20px;
 	color:#fff;
 	margin-bottom:10px;
-	text-transform:capitalize;
 }
 .service .single-service p{
 	color:#fffc;
@@ -500,6 +536,11 @@ a:hover{
 	padding:100px 0px;
 	background:#f5f5f5;
 }
+
+#education{
+	background:#eae8e8;
+}
+
 .story .story-content{}
 .story .single-story {
 	position:relative;
@@ -879,7 +920,7 @@ a:hover{
 ============================*/
 .clients {
 	position: relative;
-	padding: 30px 0;
+	padding: 50px 0 100px 0;
 }
 .clients img {
 	padding: 40px;
