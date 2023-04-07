@@ -537,6 +537,18 @@ a:hover{
 	background:#f5f5f5;
 }
 
+li.skills_li {
+    color: white;
+    list-style-type: circle;
+    font-size: 80%;
+}
+
+.row_skills {
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 #education{
 	background:#eae8e8;
 }
