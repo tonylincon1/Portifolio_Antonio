@@ -525,6 +525,16 @@ a:hover{
 	font-weight:300;
 	text-align: justify;
 }
+
+h2.project-title {
+    padding-bottom: 2%;
+}
+
+video {
+	width: 100%;
+	height: auto;
+  }
+
 /*=========================
 	End Services CSS
 ===========================*/
