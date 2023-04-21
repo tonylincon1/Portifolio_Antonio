@@ -341,24 +341,36 @@
 					<div class="inner-content wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.8s">
 						<h2 class="project-title">Modelo de criação de calçados utilizando redes GANs</h2>
 						<video autoplay loop muted><source class="project-image" src="videos/pf1.mp4" type="video/mp4"></video>
-						<p class="project-description">Descrição do Projeto 1</p>
-						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong></p>
+						<p class="project-description">O projeto foi desenvolvido para a empresa Beira Rio Calçados com o objetivo de auxiliar no processo criativo para lançamento de novas peças. O modelo foi criado utilizando a linguagem de programação Python e redes GANs (Stable Diffusion).</p>
+						<p class="project-description">A técnica de Stable Diffusion foi escolhida para treinar a GAN utilizada no modelo. Esta técnica é baseada em amostragem em cadeia de Markov e foi escolhida por sua capacidade de gerar imagens de alta qualidade a partir de imagens de entrada.</p>
+						<p class="project-description">O modelo desenvolvido tem como entrada duas imagens de calçados e como saída uma nova imagem de calçado gerada pela rede GAN. Para a criação do modelo, foi utilizada uma GAN já pré-treinada, que foi adaptada para o uso específico na criação de calçados.</p>
+						<p class="project-description">Para o deploy do modelo, foi utilizado o API Flask e AWS Elastic Container Service, que permitem a criação e o gerenciamento de serviços em nuvem de maneira rápida e eficiente.</p>
+						<p class="project-description">O modelo de criação de calçados utilizando redes GANs foi um sucesso para a Beira Rio Calçados, pois permitiu a criação de novas peças com mais rapidez e eficiência. Além disso, o modelo também ajudou na redução de custos com prototipagem de calçados, já que a geração de imagens em 3D a partir do modelo foi mais rápida e precisa do que a criação física de protótipos.</p>
+						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> Linguagem de Programação (Python), GANs (Stable Diffusion), Deploy (API Flask, AWS Elastic Container Service).</p>
 					</div>
 				</div>
 				<div id='sis_similaridade' class="project">
 					<div class="inner-content wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.8s">
 						<h2 class="project-title">Modelo de recomendação de calçados por similaridade</h2>
 						<video autoplay loop muted><source class="project-image" src="videos/pf2.mp4" type="video/mp4"></video>
-						<p class="project-description">Descrição do Projeto 1</p>
-						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong></p>
+						<p class="project-description">O projeto foi desenvolvido utilizando técnicas avançadas de deep learning e visão computacional. A linguagem de programação utilizada foi Python, que é amplamente utilizada em projetos de inteligência artificial e machine learning.</p>
+						<p class="project-description">O primeiro passo do projeto foi tratar e padronizar as imagens do banco de dados da Beira Rio Calçados, que continha mais de 30 mil imagens. Isso foi feito utilizando técnicas de pré-processamento de imagens, como redimensionamento, normalização e correção de brilho e contraste.</p>
+						<p class="project-description">Em seguida, foi utilizado o modelo de classificação Zero Shot Images de deep learning para classificar as imagens. Esse modelo foi treinado com uma grande quantidade de imagens e foi capaz de classificar as imagens em várias categorias, incluindo cor, estilo, forma e material.</p>
+						<p class="project-description">Para buscar imagens semelhantes, foi utilizado o TensorFlow Similarity, uma biblioteca de visão computacional que é capaz de encontrar imagens similares a partir de uma imagem de referência. Esse modelo utiliza técnicas de processamento de imagens, como extração de características, para identificar as imagens mais semelhantes.</p>
+						<p class="project-description">Por fim, o modelo foi implementado em uma API Flask e implantado em um serviço de contêineres AWS Elastic Container Service, permitindo que a equipe da Beira Rio Calçados pudesse acessá-lo facilmente e fazer buscas de imagens semelhantes em seu banco de dados. Com isso, a empresa foi capaz de encontrar referências mais rapidamente, auxiliando no processo criativo e desenvolvimento de novas peças de calçados.</p>
+						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> Linguagem de Programação (Python), Deep learning (Classificação - Zero Shot Images), Visão Computacional (Tensorflow Similarity), Deploy (API Flask, AWS Elastic Container Service).</p>
 					</div>
 				</div>
 				<div class="project">
 					<div class="inner-content wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.8s">
-						<h2 class="project-title">Análise de sobrevivência Churn</h2>
+						<h2 class="project-title">Probabilidade de churn com análise de sobrevivência</h2>
 						<video autoplay loop muted><source class="project-image" src="videos/pf3.mp4" type="video/mp4"></video>	
-						<p class="project-description">Descrição do Projeto 1</p>
-						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong></p>
+						<p class="project-description">O projeto teve como objetivo identificar se diferentes taxas de engajamento dos clientes estavam relacionadas a uma menor probabilidade de churn. Para isso, foram utilizadas ferramentas e tecnologias como Linguagem de Programação Python, Análise de Sobrevivência com a biblioteca Lifelines, Tratamento de Dados com Pandas e Visualização de Dados com Seaborn, Matplotlib e Storytelling.</p>
+						<p class="project-description">O conceito de engajamento dos usuários adotados na análise foi definido como aqueles que retornaram ao cliente em um intervalo menor ou igual a 3 meses após o seu primeiro uso. Foram analisadas diferentes taxas de engajamento dos clientes e a curva de sobrevivência foi utilizada para verificar a relação entre engajamento e probabilidade de churn.</p>
+						<p class="project-description">A curva de sobrevivência é uma técnica estatística utilizada para analisar a probabilidade de um evento ocorrer em um determinado período de tempo. No caso deste projeto, o evento analisado foi o churn, que é quando um cliente deixa de utilizar um serviço ou produto. A curva de sobrevivência foi utilizada para calcular a probabilidade de um cliente permanecer utilizando o produto ao longo do tempo, de acordo com sua taxa de engajamento.</p>
+						<p class="project-description">Através da análise da curva de sobrevivência, foi possível verificar que os clientes com uma taxa de engajamento entre 69% a 100% apresentavam uma melhor curva de sobrevivência em relação aos demais, indicando uma menor probabilidade de churn. Esse resultado foi verificado através de testes estatísticos como log-rank, cox coefficient p-value e survival in time t, que apontaram para uma diferença estatisticamente significativa entre as curvas de sobrevivência dos clientes com diferentes taxas de engajamento.</p>
+						<p class="project-description">Em resumo, o projeto "Probabilidade de churn com análise de sobrevivência" utilizou a curva de sobrevivência para analisar a relação entre a taxa de engajamento dos clientes e a probabilidade de churn. Essa análise foi realizada utilizando ferramentas e tecnologias como Python, Lifelines, Pandas e Seaborn, permitindo a identificação de clientes com menor probabilidade de churn e auxiliando na tomada de decisões estratégicas da empresa.</p>
+						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> Linguagem de Programação (Python), Análise de Sobrevivência (Lifelines),  Tratamento de Dados (Pandas),  Visualização de Dados (Seaborn, Matplotlib, Storytelling).</p>
 					</div>
 				</div>
 				<div id='clutering'></div>
@@ -366,8 +378,12 @@
 					<div class="inner-content wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.8s">
 						<h2 class="project-title">Segmentação das personas de usuários de produtos</h2>
 						<video autoplay loop muted><source class="project-image" src="videos/pf4.mp4" type="video/mp4"></video>	
-						<p class="project-description">Descrição do Projeto 1</p>
-						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong></p>
+						<p class="project-description">O projeto foi desenvolvido para resolver a hipótese de que é possível segmentar os tipos de comportamentos dos usuários para analisar o engajamento com o produto de maneira mais assertiva. O projeto foi dividido em quatro fases.</p>
+						<p class="project-description">Na primeira fase, houve uma validação dos eventos dos usuários, em conjunto com a área de negócio, para definir quais eventos são importantes para a segmentação dos comportamentos. Na segunda fase, foi feita uma exploração dos eventos selecionados para avaliar, através dos dados, a utilização na segmentação dos comportamentos.</p>
+						<p class="project-description">A terceira fase envolveu a aplicação de técnicas de clusterização para realizar a segmentação dos comportamentos dos usuários. Para isso, foi utilizada a ferramenta Scikit Learn, que é uma biblioteca de aprendizado de máquina em Python. Foi também aplicada a técnica de redução de dimensionalidade UMAP, que ajudou a visualizar os dados em duas dimensões.</p>
+						<p class="project-description">Por fim, na quarta fase, foram caracterizados os comportamentos obtidos através do modelo de clusterização. Como resultado, foram encontradas quatro personas distintas: Cluster 1 com comportamento de uso relacionado ao envio de mensagens ativas; Cluster 2 com comportamento de uso de monitoramento; Cluster 3 com comportamento de uso relacionado ao envio de mensagens ativas pela aba de Growth; e Cluster 4 com comportamento de uso diversificado, porém com foco em desenvolvimento.</p>
+						<p class="project-description">Durante todo o projeto, foram utilizadas ferramentas e tecnologias como Linguagem de Programação Python, Tratamento de Dados com Pandas, Visualização de Dados com Seaborn, Matplotlib e Storytelling, além das já mencionadas Scikit Learn e UMAP. A partir dos resultados obtidos, a empresa pôde utilizar as personas encontradas para entender melhor o engajamento dos usuários com o produto e direcionar melhorias e inovações.</p>
+						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> Linguagem de Programação (Python), Clusterização (Scikit Learn), Redução de dimensionalidade (UMAP), Tratamento de Dados (Pandas), Visualização de Dados (Seaborn, Matplotlib, Storytelling).</p>
 					</div>
 				</div>
 				<div id='score_atend'></div>
@@ -376,7 +392,7 @@
 						<h2 class="project-title">Score para avaliação do atendimento de atendentes</h2>
 						<video autoplay loop muted><source class="project-image" src="videos/pf5.mp4" type="video/mp4"></video>	
 						<p class="project-description">Descrição do Projeto 1</p>
-						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong></p>
+						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> Linguagem de Programação (Python), Redução de dimensionalidade (PCA), Tratamento de Dados (Pandas), Visualização de Dados (Seaborn, Matplotlib, Storytelling).</p>
 					</div>
 				</div>
 				<div id='modelo_cirurgia'></div>
@@ -385,7 +401,7 @@
 						<h2 class="project-title">Modelo de classificação de risco de cancelamento cirúrgico</h2>
 						<img src="img/pf6.png" alt="Modelo de classificação de risco de cancelamento cirúrgico" class="project-image">
 						<p class="project-description">Descrição do Projeto 1</p>
-						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong></p>
+						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> Linguagem de Programação (Python), Classificação (Pycaret), Tratamento de Dados (Pandas).</p>
 					</div>
 				</div>
 				<div id='modelo_satisfacao_NLP'></div>
@@ -394,7 +410,7 @@
 						<h2 class="project-title">Modelo de classificação de satisfação de pacientes utilizando NLP</h2>
 						<img src="img/pf7.png" alt="Modelo de classificação de satisfação de pacientes utilizando NLP" class="project-image">
 						<p class="project-description">Descrição do Projeto 1</p>
-						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong></p>
+						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong>  Linguagem de Programação (Python), NLP (Scikit Learn, nltk), Tratamento de Dados (Pandas), Visualização de Dados (Seaborn, Matplotlib, Wordcloud), Deploy (API Flask, GCP APP Engine, Heroku).</p>
 					</div>
 				</div>
 				<div class="project">
@@ -402,7 +418,7 @@
 						<h2 class="project-title">Landing page e Blog para o projeto Rio Doce Labs</h2>
 						<video autoplay loop muted><source class="project-image" src="videos/pf8.mp4" type="video/mp4"></video>					  
 						<p class="project-description">Descrição do Projeto 1</p>
-						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> HTML, CSS, JavaScript, Python, APIs.</p>
+						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> Linguagem de Marcação e Estilo (HTML, CSS), Linguagem de Programação (JavaScript, Python), Deploy(Vercel, API Flask).</p>
 					</div>
 				</div>
 				<div class="project">
@@ -410,7 +426,7 @@
 						<h2 class="project-title">Landing pages para o projeto Rio Doce Digital</h2>
 						<video autoplay loop muted><source class="project-image" src="videos/pf9.mp4" type="video/mp4"></video>
 						<p class="project-description">Descrição do Projeto 1</p>
-						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> HTML, CSS, JavaScript, APIs.</p>
+						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> Linguagem de Marcação e Estilo (HTML, CSS), Linguagem de Programação (JavaScript, Python), Deploy(Vercel, API Flask).</p>
 					</div>
 				</div>
 				<div class="project">
@@ -418,7 +434,7 @@
 						<h2 class="project-title">Landing pages para o projeto Campus Tech</h2>
 						<video autoplay loop muted><source class="project-image" src="videos/pf10.mp4" type="video/mp4"></video>
 						<p class="project-description">Descrição do Projeto 1</p>
-						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> HTML, CSS, JavaScript, APIs.</p>
+						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> Linguagem de Marcação e Estilo (HTML, CSS), Linguagem de Programação (JavaScript, Python), Deploy(Vercel, API Flask).</p>
 					</div>
 				</div>
 		</section>
@@ -434,13 +450,7 @@
 					<div class="col-md-12">
 						<div class="owl-carousel clients-slider">
 							<div class="single-clients">
-								<img src="img/Empresas/1.png" alt="#">
-							</div>
-							<div class="single-clients">
 								<img src="img/Empresas/2.png" alt="#">
-							</div>
-							<div class="single-clients">
-								<img src="img/Empresas/3.png" alt="#">
 							</div>
 							<div class="single-clients">
 								<img src="img/Empresas/4.png" alt="#">
@@ -468,7 +478,7 @@
 					<div class="col-md-4 col-sm-12 col-xs-12">
 						<div class="contact-info">
 							<h4>Contato</h4>
-							<p>Ficou interessado pelo meu perfil do profissional?</p>
+							<p>Ficou interessado pelo meu perfil profissional?</p>
 							<p>Entre em contato através das informações abaixo, ou nos envie suas dúvidas, curiosidades, propostas, através da caixa de contato ao lado.</p>
 							<span><i class="fa fa-phone-square"></i><a href="https://api.whatsapp.com/send/?phone=5579996121420&text&app_absent=0">(079) 99612-1420</a></span>
 							<span><i class="fa fa-envelope"></i><a>antonio.ddramos@gmail.com</a></span>
@@ -523,7 +533,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<p>© 2022 Feito por Antônio</a></p>
+							<p>© 2022 Feito por Antônio Ramos</a></p>
 						</div>
 					</div>
 				</div>
