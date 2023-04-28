@@ -31,7 +31,6 @@
 			<ul>
 				<li class="linkedin"><a href="https://www.linkedin.com/in/antoniodramos/"><i class="fa fa-linkedin"></i></a></li>
 				<li class="whatsapp"><a href="https://wa.me/5579996121420"><i class="fa fa-whatsapp"></i></a></li>
-				<li class="instagram"><a href="https://www.instagram.com/engprodramos/"><i class="fa fa-instagram"></i></a></li>
 				<li class="github"><a href="https://github.com/tonylincon1"><i class="fa fa-github"></i></a></li>
 			</ul>
 		</div>
@@ -111,7 +110,6 @@
 									<ul>
 										<li class="linkedin"><a href="https://www.linkedin.com/in/antoniodramos/"><i class="fa fa-linkedin"></i></a></li>
 										<li class="whatsapp"><a href="https://wa.me/5579996121420"><i class="fa fa-whatsapp"></i></a></li>
-										<li class="instagram"><a href="https://www.instagram.com/engprodramos/"><i class="fa fa-instagram"></i></a></li>
 										<li class="github"><a href="https://github.com/tonylincon1"><i class="fa fa-github"></i></a></li>
 									</ul>
 								</div>
@@ -391,7 +389,11 @@
 					<div class="inner-content wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.8s">
 						<h2 class="project-title">Score para avaliação do atendimento de atendentes</h2>
 						<video autoplay loop muted><source class="project-image" src="videos/pf5.mp4" type="video/mp4"></video>	
-						<p class="project-description">Descrição do Projeto 1</p>
+						<p class="project-description">O projeto teve como objetivo criar um score para avaliar o desempenho dos atendentes em relação às métricas de atendimento. Para isso, foram utilizadas técnicas de redução de dimensionalidade, mais especificamente a Análise de Componentes Principais (PCA).</p>
+						<p class="project-description">Inicialmente, foram definidas as métricas que comporiam o score: mediana do tempo de atendimento por ticket no trimestre, mediana do tempo de espera por ticket no trimestre e mediana do volume diário de tickets no trimestre. Essas métricas foram escolhidas por refletirem o desempenho dos atendentes em relação à eficiência no atendimento e à capacidade de lidar com volume de demanda.</p>
+						<p class="project-description">Em seguida, foi realizada a análise de componentes principais (PCA), que tem como objetivo reduzir a dimensionalidade dos dados, mantendo a maior parte da variação dos dados originais. A técnica de PCA permite transformar as métricas em um conjunto menor de variáveis que melhor representam o desempenho dos atendentes.</p>
+						<p class="project-description">Após a aplicação da técnica de PCA, foram gerados os scores para cada atendente. O score final foi calculado como uma combinação linear das variáveis principais obtidas a partir da PCA. Esses scores foram então utilizados para identificar os atendentes com baixa performance e indicar possíveis intervenções para melhorar seu desempenho, como treinamentos e realocações.</p>
+						<p class="project-description">Por fim, a visualização dos scores dos atendentes em relação às métricas de atendimento permitiu aos gestores identificar padrões de desempenho e identificar oportunidades de melhoria no atendimento. A utilização do score criado com a técnica de PCA permitiu uma avaliação mais objetiva e consistente do desempenho dos atendentes, contribuindo para o aumento da eficiência do atendimento e, consequentemente, da receita dos clientes.</p>
 						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> Linguagem de Programação (Python), Redução de dimensionalidade (PCA), Tratamento de Dados (Pandas), Visualização de Dados (Seaborn, Matplotlib, Storytelling).</p>
 					</div>
 				</div>
@@ -400,7 +402,10 @@
 					<div class="inner-content wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.8s">
 						<h2 class="project-title">Modelo de classificação de risco de cancelamento cirúrgico</h2>
 						<img src="img/pf6.png" alt="Modelo de classificação de risco de cancelamento cirúrgico" class="project-image">
-						<p class="project-description">Descrição do Projeto 1</p>
+						<p class="project-description">O projeto teve como objetivo criar uma nova funcionalidade para um produto que consistia em prever quais cirurgias poderiam ter um potencial de cancelamento a partir de um conjunto de informações. Para isso, utilizamos a linguagem de programação Python e a biblioteca Pycaret para desenvolver o modelo de classificação.</p>
+						<p class="project-description">Inicialmente, fizemos o tratamento dos dados, utilizando a biblioteca Pandas para limpar e transformar os dados em um formato adequado para o modelo. Em seguida, utilizamos o Pycaret para realizar o treinamento do modelo de gradient boosting machine, que mostrou um F1-score de 0.71.</p>
+						<p class="project-description">O modelo de gradient boosting machine é um algoritmo de aprendizado de máquina que utiliza uma combinação de árvores de decisão para realizar a classificação. Esse algoritmo é conhecido por sua capacidade de lidar com dados complexos e não lineares, o que o torna ideal para nosso problema. Apesar de termos feito vários treinamentos utilizando Pycaret.</p>
+						<p class="project-description">Ao final do projeto, conseguimos criar um modelo de classificação eficiente que foi capaz de prever com precisão quais cirurgias tinham um potencial de cancelamento. Com isso, nossos clientes puderam utilizar essa nova funcionalidade para evitar cancelamentos desnecessários e aumentar a eficiência em suas operações.</p>
 						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> Linguagem de Programação (Python), Classificação (Pycaret), Tratamento de Dados (Pandas).</p>
 					</div>
 				</div>
@@ -409,7 +414,10 @@
 					<div class="inner-content wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.8s">
 						<h2 class="project-title">Modelo de classificação de satisfação de pacientes utilizando NLP</h2>
 						<img src="img/pf7.png" alt="Modelo de classificação de satisfação de pacientes utilizando NLP" class="project-image">
-						<p class="project-description">Descrição do Projeto 1</p>
+						<p class="project-description">O projeto foi desenvolvido com o objetivo de identificar a satisfação dos pacientes e capturar elementos importantes de suas queixas ou elogios. O modelo foi integrado em uma solução ponta a ponta que trabalha com a satisfação dos pacientes e era requisitado via chatbot, analisando em tempo real as mensagens dos pacientes e direcionando para as áreas responsáveis.</p>
+						<p class="project-description">As técnicas/estratégias utilizadas incluíram remoção de stopwords, tokenização, normalização de texto, remoção de pontuações, evitando flexões e derivações nas palavras e TF-IDF. Para o treinamento do modelo, utilizou-se o algoritmo de classificação Logistic Regression, que mostrou-se eficaz na classificação da satisfação dos pacientes obtendo uma acurácia de 72%.</p>
+						<p class="project-description">O modelo desenvolvido foi capaz de classificar com precisão a satisfação dos pacientes, indicando se a mensagem do paciente era positiva (promotor) ou negativa (detrator). Além disso, o modelo também foi capaz de identificar os principais termos utilizados pelos pacientes em suas mensagens, permitindo que a equipe responsável pudesse tomar ações imediatas para melhorar a experiência do paciente.</p>
+						<p class="project-description">O modelo foi implantado com sucesso em produção e integrado na solução desenvolvida para trabalhar a satisfação dos pacientes, trazendo resultados positivos para a empresa. A implementação do modelo permitiu uma análise mais precisa e em tempo real das mensagens dos pacientes, permitindo a tomada de ações imediatas para melhorar a experiência do paciente.</p>
 						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong>  Linguagem de Programação (Python), NLP (Scikit Learn, nltk), Tratamento de Dados (Pandas), Visualização de Dados (Seaborn, Matplotlib, Wordcloud), Deploy (API Flask, GCP APP Engine, Heroku).</p>
 					</div>
 				</div>
@@ -417,8 +425,11 @@
 					<div class="inner-content wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.8s">
 						<h2 class="project-title">Landing page e Blog para o projeto Rio Doce Labs</h2>
 						<video autoplay loop muted><source class="project-image" src="videos/pf8.mp4" type="video/mp4"></video>					  
-						<p class="project-description">Descrição do Projeto 1</p>
-						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> Linguagem de Marcação e Estilo (HTML, CSS), Linguagem de Programação (JavaScript, Python), Deploy(Vercel, API Flask).</p>
+						<p class="project-description">O projeto foi desenvolvido com o objetivo de criar uma plataforma para empreendedores de Governador Valadares, Ipatinga e Linhares aprimorarem seus negócios. Foi criada uma landing page utilizando HTML, CSS e JavaScript, com um layout responsivo e intuitivo, que apresentava todas as informações necessárias sobre o programa Rio Doce LABS.</p>
+						<p class="project-description">Além disso, um blog em WordPress foi desenvolvido para manter os empreendedores atualizados sobre as novidades do programa. A escolha pelo WordPress foi devido à sua facilidade de uso e personalização.</p>
+						<p class="project-description">Para a hospedagem, foram utilizados os serviços do Vercel e Hostgator. O Vercel foi escolhido por sua facilidade de deploy e escalabilidade, enquanto o Hostgator foi escolhido por ser um servidor confiável e seguro.</p>
+						<p class="project-description">A API Flask foi utilizada para integrar o formulário de inscrição na landing page com o banco de dados, facilitando a gestão das inscrições. Além disso, foram utilizados outros recursos, como o Google Analytics, para acompanhar o desempenho do site e o SEO para aumentar sua visibilidade nos mecanismos de busca.</p>
+						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> Linguagem de Marcação e Estilo (HTML, CSS), Linguagem de Programação (JavaScript, Python), Wordpress, Deploy(Vercel, Hostgator, API Flask).</p>
 					</div>
 				</div>
 				<div class="project">
@@ -426,7 +437,7 @@
 						<h2 class="project-title">Landing pages para o projeto Rio Doce Digital</h2>
 						<video autoplay loop muted><source class="project-image" src="videos/pf9.mp4" type="video/mp4"></video>
 						<p class="project-description">Descrição do Projeto 1</p>
-						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> Linguagem de Marcação e Estilo (HTML, CSS), Linguagem de Programação (JavaScript, Python), Deploy(Vercel, API Flask).</p>
+						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> Linguagem de Marcação e Estilo (HTML, CSS), Linguagem de Programação (JavaScript, Python), Deploy(Vercel, Hostgator, API Flask).</p>
 					</div>
 				</div>
 				<div class="project">
@@ -434,7 +445,7 @@
 						<h2 class="project-title">Landing pages para o projeto Campus Tech</h2>
 						<video autoplay loop muted><source class="project-image" src="videos/pf10.mp4" type="video/mp4"></video>
 						<p class="project-description">Descrição do Projeto 1</p>
-						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> Linguagem de Marcação e Estilo (HTML, CSS), Linguagem de Programação (JavaScript, Python), Deploy(Vercel, API Flask).</p>
+						<p class="project-tech"><strong>Ferramentas/Tecnologias utilizadas:</strong> Linguagem de Marcação e Estilo (HTML, CSS), Linguagem de Programação (JavaScript, Python), Deploy(Vercel, Hostgator, API Flask).</p>
 					</div>
 				</div>
 		</section>
@@ -522,7 +533,6 @@
 							<ul class="social">
 								<li class="linkedin"><a href="https://www.linkedin.com/in/antoniodramos/"><i class="fa fa-linkedin"></i></a></li>
 								<li class="whatsapp"><a href="https://wa.me/5579996121420"><i class="fa fa-whatsapp"></i></a></li>
-								<li class="instagram"><a href="https://www.instagram.com/engprodramos/"><i class="fa fa-instagram"></i></a></li>
 							</ul>
 							<!-- End Social -->
 						</div>
